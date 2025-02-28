@@ -234,7 +234,6 @@ body {
 
 /* Tentang kami start */
 .about {
-    display: flex;
     padding: 8rem 7% 1.4rem;
     color: white;
 }
