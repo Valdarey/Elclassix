@@ -176,15 +176,14 @@ body {
     display: block;
     position: absolute;
     width: 100%;
-    height: 10%;
+    height: 30%;
     bottom: 0;
-    background: linear-gradient(0deg, rgb(34, 30, 30) 1%, rgb(255,255,255,0) 100%);
+    background: linear-gradient(0deg, rgb(34, 30, 30) 10%, rgb(255,255,255,0) 100%);
 }
 
 .hero .content {
     padding: 1.5rem 7%;
     max-width: 60rem;
-
     padding: 3rem 4rem 10rem;
     margin-bottom: 2rem;
 }
@@ -239,7 +238,7 @@ body {
 }
 
 .about h2 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     letter-spacing: 0.5rem;
     display: flex;
 }
@@ -381,6 +380,7 @@ body {
     font-size: 1.3rem;
     color: crimson;
 }
+
 
 .navbar .menu-nav.active {
         right: 0;
