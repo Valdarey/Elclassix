@@ -183,7 +183,7 @@ body {
 
 .hero .content {
     padding: 1.5rem 7%;
-    max-width: 60rem;
+    max-width: 70rem;
     padding: 3rem 4rem 10rem;
     margin-bottom: 2rem;
 }
@@ -381,8 +381,11 @@ body {
     color: crimson;
 }
 
+.about {
+
+}
 .about h2{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .navbar .menu-nav.active {
@@ -481,7 +484,7 @@ body {
 /* end */
 
 .about h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .navbar .menu-nav.active {
     right: 0;
