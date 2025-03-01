@@ -17,6 +17,7 @@ body {
     font-family: 'poppins', sans-serif;
     background-color: var(--second);
     min-height: 2000px;
+    background-color: var(--primary);
 }
 
 /* Navbar start */
@@ -178,7 +179,6 @@ body {
     width: 100%;
     height: 30%;
     bottom: 0;
-    border-bottom:5px solid white;
 }
 
 .hero .content {
@@ -241,7 +241,34 @@ body {
     font-size: 1.8rem;
     letter-spacing: 0.5rem;
     display: flex;
+    justify-content: center;
 } 
+
+.about .row {
+    display: flex;
+    padding-top: 3rem;
+}
+
+.about .row .gambar1 {
+    flex: 1 1 45rem;
+}
+
+.about .row .gambar1 img{
+    width: 100%;
+}
+
+.about .row .content1 {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.about .row .content1 h3 {
+    font-weight: 500;
+}
+
+.about .row .content1 p {
+    padding: 1rem 0;
+}
 /* Tentang kami end */
 
 
