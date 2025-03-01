@@ -201,7 +201,7 @@ body {
 .hero .content p {
     font-size: 1.2rem;
     font-weight: 600;
-    color: crimson;
+    color: var(--second);
 }
 
 .hero .content .tombol {
@@ -232,7 +232,7 @@ body {
 /* Hero section end */
 
 /* Tentang kami start */
-/* .about {
+.about {
     padding: 8rem 7% 1.4rem;
     color: white;
 }
@@ -241,7 +241,7 @@ body {
     font-size: 1.8rem;
     letter-spacing: 0.5rem;
     display: flex;
-} */
+} 
 /* Tentang kami end */
 
 
@@ -381,9 +381,6 @@ body {
     color: crimson;
 }
 
-.about {
-
-}
 .about h2{
     font-size: 1.6rem;
 }
