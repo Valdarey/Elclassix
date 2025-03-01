@@ -124,7 +124,7 @@ body {
 
 .navbar .medsos a {
     display: flex;
-    color: rgb(0, 0, 0);
+    color: var(--second);
     font-size: 1rem;
     align-items: center;
     justify-content: center;
@@ -304,7 +304,7 @@ body {
    
 .navbar .menu-nav a::after {
         content: "";
-        color: rgb(0, 0, 0);
+        color: var(--second);
         display: flex;
         align-items: center;
         border-bottom: 0.2rem solid white;
@@ -378,7 +378,7 @@ body {
 .hero .content p {
     font-weight: 600;
     font-size: 1.3rem;
-    color: crimson;
+    color: var(--second);
 }
 
 .about h2{
@@ -477,6 +477,10 @@ body {
 .hero .content {
     display: inline-block;
     margin-bottom: 10rem;
+}
+
+.hero .content p  {
+    color: var(--second);
 }
 /* end */
 
