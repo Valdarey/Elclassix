@@ -24,6 +24,14 @@ document.addEventListener('click', function (hapus) {
     }
 });
 
+//script type di hero section
+var typed = new Typed('#auto-hero', {
+    strings: ['Tekan tombol di bawah ini', 'Untuk lanjut kehalaman selanjutnya'],
+    typeSpeed: 30,
+    loop: true
+})
+
+
 // Script Type biar loop dan jalan
 var typed = new Typed('.auto-type', {
      strings: ['SELAMAT DATANG', 'BAGAIMANA KABARMU?', 'LUPAKAH KALIAN?','GRUP SEPI KALI BRAY', 'SEMOGA SEHAT SEMUA',
@@ -32,10 +40,3 @@ var typed = new Typed('.auto-type', {
      loop:true
 });
 
-
-//script type di hero section
-var typed = new Typed('#auto-hero', {
-    strings: ['Tekan tombol di bawah ini', 'Untuk lanjut kehalaman selanjutnya'],
-    typeSpeed: 30,
-    loop: true
-})
