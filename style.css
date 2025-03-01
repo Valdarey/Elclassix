@@ -233,16 +233,24 @@ body {
 
 /* Tentang kami start */
 .about {
-    padding: 10rem 7% 1.4rem;
+    padding: 8rem 7% 1.4rem;
     color: white;
 }
 
 .about h2 {
-    font-size: 1.8rem;
-    letter-spacing: 0.5rem;
-    display: flex;
+    font-weight: 600;
+    font-size: 3rem;
+    display: inline-flex;
     justify-content: center;
-} 
+    letter-spacing: 0.4rem;
+    border-bottom: 2px solid crimson;
+}
+
+.about .auto .auto-type p {
+    padding-top: 2rem;
+    color: aqua;
+}
+
 
 .about .row {
     display: flex;

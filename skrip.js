@@ -33,10 +33,10 @@ var typed = new Typed('#auto-hero', {
 
 
 // Script Type biar loop dan jalan
-var typed = new Typed('.auto-type', {
-     strings: ['SELAMAT DATANG', 'BAGAIMANA KABARMU?', 'LUPAKAH KALIAN?','GRUP SEPI KALI BRAY', 'SEMOGA SEHAT SEMUA',
-        ''],
-     typeSpeed: 50,
-     loop:true
-});
+    var typed = new Typed('.auto-type', {
+    strings: ['SELAMAT DATANG', 'BAGAIMANA KABARMU?', 'LUPAKAH KALIAN?','GRUP SEPI KALI BRAY', 'SEMOGA SEHAT SEMUA',
+         ''],
+      typeSpeed: 50,
+      loop:true
+ });
 
