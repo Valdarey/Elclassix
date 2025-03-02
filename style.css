@@ -16,7 +16,7 @@ html {
 body {
     font-family: 'poppins', sans-serif;
     background-color: var(--second);
-    min-height: 2000px;
+    min-height: 3000px;
     background-color: var(--primary);
 }
 
@@ -246,9 +246,17 @@ body {
     border-bottom: 2px solid crimson;
 }
 
+.about .catatan h4 {
+    padding-top: 1rem;
+} 
+
+.about .row .content1 h3 {
+    display: inline-block;
+    border-bottom: 2px solid crimson;
+}
+
 .about .auto .auto-type p {
-    padding-top: 2rem;
-    color: aqua;
+    padding-bottom: 2rem;
 }
 
 .about .row {
