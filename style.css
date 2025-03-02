@@ -251,7 +251,6 @@ body {
     color: aqua;
 }
 
-
 .about .row {
     display: flex;
     padding-top: 3rem;
@@ -423,6 +422,11 @@ body {
 .navbar .menu-nav.active {
         right: 0;
 }
+
+/* KENANGAN SECTION TABLET START */
+.about .row {
+    flex-wrap: wrap;
+}
 }
 
 
@@ -521,9 +525,23 @@ body {
 }
 /* end */
 
+
+/* KENANGAN SECTION MOBILE START  */
+.about .row {
+    flex-wrap: wrap;
+}
+
 .about h2{
+    font-size: 2rem;
+}
+
+
+.about .row .content1 h3 {
+    padding-top: 1.1rem;
+    font-weight: 600;
     font-size: 1.5rem;
 }
+
 .navbar .menu-nav.active {
     right: 0;
 }
