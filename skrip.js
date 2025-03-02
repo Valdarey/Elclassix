@@ -35,8 +35,8 @@ var typed = new Typed('#auto-hero', {
 // Script Type biar loop dan jalan
     var typed = new Typed('#kenangan', {
     strings: ['Kenangan','Tahun 2022-2024'],
-      typeSpeed: 20,
-      backspeed: 30,
+      typeSpeed: 50,
+      backspeed: 70,
       loop:true
   });
 

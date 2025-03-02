@@ -240,7 +240,7 @@ body {
 .about h2 {
     font-weight: 600;
     font-size: 3rem;
-    display: inline-flex;
+    display: inline-block;
     justify-content: center;
     letter-spacing: 0.4rem;
     border-bottom: 2px solid crimson;
@@ -260,8 +260,9 @@ body {
     flex: 1 1 45rem;
 }
 
-.about .row .gambar1 img{
+.about .row .gambar1 img {
     width: 100%;
+
 }
 
 .about .row .content1 {
@@ -431,7 +432,6 @@ body {
 
 
 
-
 /* Mobile */
 @media (max-width:450px) {
     html {
@@ -537,6 +537,7 @@ body {
 
 .about h2{
     font-size: 2.5rem;
+    display: inline-block;
 }
 
 .about .row .gambar1 img {
