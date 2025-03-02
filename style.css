@@ -279,7 +279,7 @@ body {
 }
 
 .about .row .content1 h3 {
-    font-weight: 500;
+    font-weight: 500; 
 }
 
 .about .row .content1 p {
@@ -289,15 +289,26 @@ body {
 .akhir h1{
     display: flex;
     justify-content: center;
-    padding-top: 4rem;
+    padding-top: 2.5rem;
+    color: white;
     font-size: 2.6rem;
 }
 
 .akhir h3 {
     display: flex;
     justify-content: center;
+    color: white;
     font-size: 2rem;
+    font-weight: 300;
 }
+
+.akhir p {
+    color:white;
+    display: flex;
+    padding-top: 20rem;
+    justify-content: right;
+}
+
 
 /* Tentang kami end */
 
