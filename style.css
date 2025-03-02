@@ -16,7 +16,7 @@ html {
 body {
     font-family: 'poppins', sans-serif;
     background-color: var(--second);
-    min-height: 3000px;
+    min-height: 4000px;
     background-color: var(--primary);
 }
 
@@ -285,6 +285,13 @@ body {
 .about .row .content1 p {
     padding: 1rem 0;
 }
+
+.akhir h2 {
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
 /* Tentang kami end */
 
 
