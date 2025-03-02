@@ -425,7 +425,7 @@ body {
 
 /* KENANGAN SECTION TABLET START */
 .about .row {
-    flex-wrap: wrap;
+    display: flex;
 }
 }
 
@@ -531,15 +531,28 @@ body {
     flex-wrap: wrap;
 }
 
-.about h2{
-    font-size: 2rem;
+.about .row .content1 {
+    padding: 0;
 }
 
+.about h2{
+    font-size: 3rem;
+}
+
+.about .row .gambar1 img {
+    object-fit: cover ;
+    height: 24rem;
+}
 
 .about .row .content1 h3 {
     padding-top: 1.1rem;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+}
+
+.about .row .content1 p {
+    font-size: 1.4rem;
+    padding-bottom: 3rem;
 }
 
 .navbar .menu-nav.active {
